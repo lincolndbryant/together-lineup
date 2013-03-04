@@ -1,0 +1,180 @@
+/* 
+
+	Slick Theme 
+
+*/
+
+/*-- transition --*/
+#evcal_list li a.desc_trig, .evcal_evdata_img{
+-webkit-transition: all .2s ease;
+-moz-transition: all .2s ease;
+-ms-transition: all .2s ease;
+-o-transition: all .2s ease;
+transition: all .2s ease;
+}
+
+.evcal_res_btn{
+	background-color:#588e1f;
+}
+
+.evcal_menu_btn{
+	background-color:#e6b04c;
+}
+#evcal_list .evcal_res_btn, #evcal_list .evcal_menu_btn{
+	color:white;
+	text-transform:uppercase;
+	display:inline-block;
+	padding:2px 5px;
+	font-size:12px;
+	border-bottom:none;
+	margin:0
+}
+#evcal_list a.evcal_res_btn:hover, #evcal_list a.evcal_menu_btn:hover{
+background-color:#313131}
+#evcal_list li .extra_btns{
+	position:absolute;
+	top:25px;
+	right:15px;
+	margin-bottom:0!important
+}
+.ajde_evcal_calendar .calendar_header .evcal_arrows{float:left;height:25px; width:15px;display:block; background:url(arrows.png) top left no-repeat;}
+.ajde_evcal_calendar #evcal_prev{background-position:0 0; margin:6px 15px 0 0}
+.ajde_evcal_calendar #evcal_next{background-position:-15px 0; margin:6px 0 0 15px}
+.ajde_evcal_calendar a#evcal_prev:hover{background-position:0 -25px}
+.ajde_evcal_calendar a#evcal_next:hover{background-position:-15px -25px}
+.ajde_evcal_calendar .evcal_head_shadow{height:0px; margin-bottom:0px !important}
+
+
+#evcal_sort_bar{background:url(slick_sort_bar_bg.png) top left repeat-x; height:32px;overflow:hidden; 
+	border-bottom:1px solid #b2b2b2;}
+#evcal_sort_bar ul {height:32px; padding-left:35px}
+#evcal_sort_bar ul p{margin-bottom:0!important;
+	font-size:14px; 
+	font-family:oswald,arial; font-weight:300;
+	text-shadow:0px 1px #f0f0f0;
+	text-transform:uppercase;
+	line-height:14px;
+}
+
+#evcal_sort_bar ul .sort_title{padding:9px 10px 0 0;color:#313131}
+#evcal_sort_bar ul a.cur_sort{color:#535353; border-bottom:3px solid #4f4f4f}
+#evcal_sort_bar ul a{ height:16px;  line-height:16px;padding:9px 9px 6px;color:#5c5c5c}
+#evcal_sort_bar ul a:hover{border-bottom:3px solid #949494}
+
+.ajde_evcal_calendar strong{font-weight:normal!important}
+.ajde_evcal_calendar .calendar_header{border-bottom: 1px solid #b2b2b2; min-height:37px;}
+.ajde_evcal_calendar #evcal_head.calendar_header p{float:left; color:#c6c6c6;
+	font-size:36px; 
+	text-transform:uppercase; 
+	font-family:oswald, arial; padding-top:1px	
+}
+
+#evcal_list li{
+	padding:0px; overflow:hidden; position:relative;
+	list-style-type:none;
+}
+#evcal_list li .evcal_cblock{
+	background-color:transparent !important; color:#ababab;
+	font-size:30px;padding:0px 8px 10px 13px;
+	font-family:Oswald,arial; font-weight:bold
+}
+#evcal_list li a:hover .evcal_cblock{color:#3c3c3c}
+
+#evcal_list li .evcal_desc{padding:3px 15px 0 80px; margin-bottom:0px}
+#evcal_list li a.sin_val .evcal_desc{padding-left:55px}
+#evcal_list li .evcal_desc span.evcal_desc2{
+	color:#6B6B6B; font-family:oswald, arial;
+	text-transform:uppercase;
+	font-size:18px
+}
+#evcal_list li .evcal_desc .evcal_desc_info{color:#ababab}
+
+#evcal_list{border-right:1px solid #c6c6c6;border-bottom:1px solid #c6c6c6}
+#evcal_list li a.evcal_list_a {border-bottom:1px solid #c6c6c6; padding:10px 0; }
+#evcal_list li a.desc_trig:hover{
+	background-color:#f4f4f4;
+	border-left-width:7px
+}
+#evcal_list li a.evcal_list_a{ 
+	min-height:54px; overflow:hidden;
+	border-left-width:3px;
+	border-left-style:solid;
+}
+#evcal_list li p.no_events{
+	padding:8px 12px;
+	border-left:1px solid #cdcdcd
+}
+
+
+/*-- event description section --*/
+.evcal_evdata_img:hover{
+	background-position:50% 45%;
+}
+
+#evcal_list li .event_description .evcal_desc_buy_tix a{color:#fff; background:#949494; padding:3px 10px; border:none; display:inline-block}
+#evcal_list li .event_description .evcal_desc_buy_tix a:hover{background:#4F4F4F}
+#evcal_list li .event_description p{font-size:13px; color:#656565}
+.event_description{border-left:1px solid #c6c6c6;}
+
+#evcal_list li .event_description .evcal_desc_top{background-color:#e4e4e4;}
+#evcal_list li .event_description, #evcal_list li .event_description .evcal_desc_top{border-bottom:1px solid #c6c6c6}
+#evcal_list li .event_description .evcal_desc_top, 
+#evcal_list li .event_description .evcal_gmaps {margin-top: 0px;}
+
+/*-- event other data --*/
+.evcal_evdata_row .evcal_evdata_cell h2, .evcal_evdata_row .evcal_evdata_cell h3{
+	font-family:oswald, arial;
+	font-weight:normal;
+	text-transform:uppercase;
+	letter-spacing:normal;
+	line-height:100%;
+}
+
+/*-- event featured image --*/
+.evcal_evdata_img {height:70px; }
+
+
+/*-- widget --*/
+#evcal_widget .ajde_evcal_calendar .calendar_header{padding-bottom:5px}
+#evcal_widget a{font-weight:normal}
+#evcal_widget #evcal_list li .evcal_cblock{padding:3px 5px 5px 8px}
+#evcal_widget .evcal_events_list li .evcal_desc{padding-left:55px}
+#evcal_widget #evcal_loader{margin-top:68px}
+#evcal_widget #evcal_list li .evcal_cblock{padding:3px 5px 5px 8px}
+#evcal_widget #evcal_list li a.sin_val .evcal_desc{padding-left:38px}
+#evcal_widget .ajde_evcal_calendar .calendar_header p{font-size:18px}
+
+#evcal_widget .event_description .evcal_evdata_row p{line-height:130%}
+#evcal_widget .event_description .evcal_evdata_row {padding:15px 15px;}
+#evcal_widget .event_description .evcal_evdata_row .evcal_evdata_icons{display:none}
+#evcal_widget .event_description .evcal_evdata_row .evcal_evdata_cell{padding-left:0px}
+#evcal_widget .event_description .evcal_col50{
+		width:100%; float:none;
+		border-bottom: 1px solid #CDCDCD;
+}
+#evcal_widget .event_description .evcal_col50 .bordr{border-right:none}
+#evcal_widget #evcal_list li .evcal_desc2{line-height:120%; font-size:14px!important}
+
+/*-- Responsive --*/
+@media (max-width: 480px){
+	.ajde_evcal_calendar #evcal_loader{height:1px; width:1px}
+	.ajde_evcal_calendar .calendar_header p{
+		font-size:18px!important;
+	}
+	#evcal_sort_bar ul{
+		padding-left:10px
+	}
+	.event_description .evcal_col50{
+		width:100%; float:none;
+		border-bottom: 1px solid #CDCDCD;
+	}
+	.event_description .evcal_col50 .bordr{border-right:none}
+}
+@media only screen and (max-device-width : 480px){
+	.ajde_evcal_calendar .calendar_header p{
+		font-size:18px;
+	}
+	#evcal_sort_bar ul{
+		padding-left:10px
+	}
+}
